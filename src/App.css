@@ -7,6 +7,18 @@
   pointer-events: none;
 }
 
+.task__input {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px dashed gray;
+  padding-bottom: 10px;
+  height: 67px;
+}
+
+.form__todo { 
+  width: 400px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
